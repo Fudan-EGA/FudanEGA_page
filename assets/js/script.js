@@ -275,7 +275,7 @@ function updateLanguage() {
     });
     
     // Update page title
-    document.title = currentLang === 'zh' ? 'FudanEDG - 电子创客社团' : 'FudanEDG - Electronic Geek Association';
+    document.title = currentLang === 'zh' ? 'FudanEGA - 电子创客社团' : 'FudanEGA - Electronic Geek Association';
     
     // Update HTML lang attribute
     document.documentElement.lang = currentLang === 'zh' ? 'zh-CN' : 'en';

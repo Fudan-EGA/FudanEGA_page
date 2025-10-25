@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FudanEDG - 电子创客社团</title>
+    <title>FudanEGA - 电子创客社团</title>
+    <link rel="icon" type="image/jpeg" href="assets/images/EGAico.jpg">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
@@ -12,11 +13,11 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <span class="logo-text">FudanEDG</span>
+                <img src="assets/images/EGAico.jpg" alt="FudanEGA Icon" class="nav-icon">
+                <span class="logo-text">FudanEGA</span>
             </div>
             <div class="nav-menu" id="nav-menu">
                 <a href="#about" class="nav-link" data-zh="关于我们" data-en="About">关于我们</a>
-                <a href="#activities" class="nav-link" data-zh="活动方向" data-en="Activities">活动方向</a>
                 <a href="#resources" class="nav-link" data-zh="资源" data-en="Resources">资源</a>
                 <a href="#highlights" class="nav-link" data-zh="社团亮点" data-en="Highlights">社团亮点</a>
                 <a href="#" class="nav-link" id="lang-toggle">EN</a>
@@ -32,16 +33,21 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-container">
-            <h1 class="hero-title">FudanEGA</h1>
-            <h2 class="hero-subtitle" data-zh="探索电子创客的无限可能，创造智能未来" data-en="Explore the Infinite Possibilities of Electronic Making, Create an Intelligent Future">探索电子创客的无限可能，创造智能未来</h2>
-            <p class="hero-description" data-zh="在复旦大学电子创客社团，我们致力于培养创新思维，推动电子技术与创客文化的融合。通过项目实践、技术分享和团队协作，让每一位成员都能在电子创客的世界中找到属于自己的精彩。" data-en="At Fudan University Electronic Geek Association, we are committed to fostering innovative thinking and promoting the integration of electronic technology and maker culture. Through project practice, technical sharing and team collaboration, we enable every member to find their own brilliance in the world of electronic making.">
-                在复旦大学电子创客社团，我们致力于培养创新思维，推动电子技术与创客文化的融合。
-                通过项目实践、技术分享和团队协作，让每一位成员都能在电子创客的世界中找到属于自己的精彩。
-            </p>
-            <div class="hero-buttons">
-                <a href="#join" class="btn btn-primary" data-zh="加入我们" data-en="Join Us">加入我们</a>
-                <a href="#highlights" class="btn btn-secondary" data-zh="最新亮点" data-en="Latest Highlights">最新亮点</a>
-                <a href="https://github.com/Fudan-EGA" class="btn btn-outline" target="_blank" data-zh="了解更多" data-en="Learn More">了解更多</a>
+            <div class="hero-content">
+                <h1 class="hero-title">FudanEGA</h1>
+                <h2 class="hero-subtitle" data-zh="探索电子创客的无限可能，创造智能未来" data-en="Explore the Infinite Possibilities of Electronic Making, Create an Intelligent Future">探索电子创客的无限可能，创造智能未来</h2>
+                <p class="hero-description" data-zh="在复旦大学电子创客社团，我们致力于培养创新思维，推动电子技术与创客文化的融合。通过项目实践、技术分享和团队协作，让每一位成员都能在电子创客的世界中找到属于自己的精彩。" data-en="At Fudan University Electronic Geek Association, we are committed to fostering innovative thinking and promoting the integration of electronic technology and maker culture. Through project practice, technical sharing and team collaboration, we enable every member to find their own brilliance in the world of electronic making.">
+                    在复旦大学电子创客社团，我们致力于培养创新思维，推动电子技术与创客文化的融合。
+                    通过项目实践、技术分享和团队协作，让每一位成员都能在电子创客的世界中找到属于自己的精彩。
+                </p>
+                <div class="hero-buttons">
+                    <a href="#join" class="btn btn-primary" data-zh="加入我们" data-en="Join Us">加入我们</a>
+                    <a href="#highlights" class="btn btn-secondary" data-zh="最新亮点" data-en="Latest Highlights">最新亮点</a>
+                    <a href="https://github.com/Fudan-EGA" class="btn btn-outline" target="_blank" data-zh="了解更多" data-en="Learn More">了解更多</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/noback.jpg" alt="FudanEGA Logo" class="hero-logo">
             </div>
         </div>
     </section>
@@ -128,37 +134,19 @@
                 <p class="about-text">
                     复旦大学电子创客社团 (Electronic Geek Association，EGA) 于2015年成立，转眼间已走过十个年头。这是一个汇聚创意与激情的平台，我们专注于智能硬件DIY和相关技术的实践与科普，致力于打造一个资源共享、灵感碰撞的开放社区。
                 </p>
+                <div class="about-image-container">
+                    <img src="assets/images/EGA.gif" alt="社团活动" class="about-gif">
+                </div>
                 <p class="about-text">
                     社团工作室位于邯郸校区兴业光学楼A302。目前，社团有700余名成员（50余名核心成员），覆盖学校各个专业领域。无论你是零基础小白还是经验丰富的技术达人，都能在EGA找到属于你的位置，共同探索无限可能。
                 </p>
+                <div class="about-image-container">
+                    <img src="assets/images/activities/home0.png" alt="社团工作室" class="about-image">
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Activities Section -->
-    <section class="activities">
-        <div class="container">
-            <h2 class="section-title" data-zh="我们的活动方向" data-en="Our Activities">我们的活动方向</h2>
-            <div class="activities-grid">
-                <div class="activity-card">
-                    <h3>电子设计</h3>
-                    <p>从基础电路到复杂系统，掌握电子设计的核心技能</p>
-                </div>
-                <div class="activity-card">
-                    <h3>嵌入式开发</h3>
-                    <p>学习微控制器编程，开发智能硬件项目</p>
-                </div>
-                <div class="activity-card">
-                    <h3>创客项目</h3>
-                    <p>将创意转化为现实，完成从想法到产品的全过程</p>
-                </div>
-                <div class="activity-card">
-                    <h3>技术分享</h3>
-                    <p>定期举办技术讲座和工作坊，促进知识交流</p>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Resources Section -->
     <section id="resources" class="resources">
@@ -206,18 +194,55 @@
         </div>
     </section>
 
+    <!-- Department Introduction Section -->
+    <section id="departments" class="departments">
+        <div class="container">
+            <h2 class="section-title" data-zh="部门介绍" data-en="Departments">部门介绍</h2>
+            <div class="departments-grid">
+                <div class="department-card">
+                    <h3>运维宣传部</h3>
+                    <p>负责公众号管理、推送、海报、展板和文创的制作，用你的创意助社团出圈。</p>
+                </div>
+                <div class="department-card">
+                    <h3>技术培训部</h3>
+                    <p>1）担任科普讲座和日常培训活动的主讲人，在分享中提高自己的技术与表达水平。</p>
+                    <p>2）协助电赛、光电赛等学科竞赛培训活动的组织与开展。</p>
+                </div>
+                <div class="department-card">
+                    <h3>活动策划部</h3>
+                    <p>1）参与社团内外活动组织与策划，实际体验科普讲座、DIY实践活动从0到1的全过程。</p>
+                    <p>2）提出活动创意和想法，提升社团活动的趣味性和吸引力。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Join Section -->
     <section id="join" class="join">
         <div class="container">
-            <h2 class="section-title">加入FudanEDG</h2>
+            <h2 class="section-title">加入FudanEGA</h2>
             <p class="join-description">
                 我们正在招募对电子创客充满热情的同学，无论你是初学者还是有一定基础，
                 我们都欢迎你的加入。让我们一起探索电子技术的奥秘，创造属于我们的精彩！
             </p>
-            <div class="join-qr">
-                <div class="qr-container">
-                    <img src="assets/images/qr/join-qr.png" alt="加入我们二维码" class="qr-code">
-                    <p>扫码加入我们</p>
+            <div class="join-actions">
+                <div class="qr-item">
+                    <div class="qr-container">
+                        <img src="assets/images/qr/qr1.png" alt="关注我们二维码" class="qr-code">
+                        <p>扫码关注我们</p>
+                    </div>
+                </div>
+                <div class="qr-item">
+                    <div class="qr-container">
+                        <img src="assets/images/qr/qr3.png" alt="加入我们二维码" class="qr-code">
+                        <p>扫码加入我们</p>
+                    </div>
+                </div>
+                <div class="qr-item">
+                    <div class="qr-container">
+                        <img src="assets/images/qr/qr2.png" alt="加入微信群二维码" class="qr-code">
+                        <p>扫码加入微信群</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -228,29 +253,27 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>FudanEDG</h3>
+                    <h3>FudanEGA</h3>
                     <p>复旦大学电子创客社团</p>
                 </div>
                 <div class="footer-section">
                     <h4>快速链接</h4>
                     <ul>
                         <li><a href="#about">关于我们</a></li>
-                        <li><a href="#activities">活动方向</a></li>
                         <li><a href="#resources">资源</a></li>
+                        <li><a href="#highlights">社团亮点</a></li>
                         <li><a href="#join">加入我们</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h4>联系我们</h4>
                     <ul>
-                        <li><a href="#">GitHub</a></li>
-                        <li><a href="#">Email</a></li>
-                        <li><a href="#">微信群</a></li>
+                        <li><a href="https://github.com/Fudan-EGA" target="_blank">GitHub</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 FudanEDG. 设计灵感来自 OpenMOSS Lab.</p>
+                <p>&copy; 2024 FudanEGA. 设计灵感来自 OpenMOSS Lab.</p>
             </div>
         </div>
     </footer>
